@@ -128,7 +128,6 @@ All additions and updates are simulated using local caching as the API is read-o
 ## 🔍 Bonus Features
 
 - **Search** users by name or email.
-
 - Responsive and polished UI with empty/error states.
 
 ---
@@ -162,8 +161,18 @@ flutter run
 
 ---
 
-## 🙌 Final Note
+## 🧾 Summary
 
-This project is a complete and clean implementation of a user directory app using best practices in Flutter development. Every screen, action, and state is handled thoughtfully to ensure scalability, performance, and maintainability.
+This project demonstrates a comprehensive implementation of a user directory system with the following covered:
+
+- **Clean Architecture** for modular, testable, and scalable code.
+- **BLoC pattern** for state management.
+- **Pagination with infinite scroll**, including shimmer loading effects.
+- **Local caching using Hive**, with persistence after restart.
+- **CRUD operations** on user data simulated locally.
+- **Robust error handling** with retry mechanisms.
+- **Search feature** to filter users by name or email.
+
+All critical and bonus points of the assignment have been carefully implemented to reflect best practices in Flutter development.
 
 > Built with ❤️ using Flutter + BLoC + Hive
