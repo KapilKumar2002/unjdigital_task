@@ -137,8 +137,8 @@ All additions and updates are simulated using local caching as the API is read-o
 ### Setup Instructions:
 
 ```bash
-git clone <your-repo-link>
-cd your_project
+git clone https://github.com/KapilKumar2002/unjdigital_task
+cd project
 flutter pub get
 flutter pub run build_runner build --delete-conflicting-outputs
 flutter run
