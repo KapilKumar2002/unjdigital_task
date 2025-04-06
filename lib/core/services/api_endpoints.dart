@@ -5,10 +5,11 @@ class ApiEndpoints {
 
   // User Endpoints
 
-  static String getUsers(String page) => "/users?page=$page";
-  static String getUserById(String id) => "/users/$id";
-  static String updateUser(String id) => "/users/$id";
-  static String deleteUser(String id) => "/users/$id";
+  static String getUsers(int page) => "/users?page=$page";
+  static String getUserById(int id) => "/users/$id";
+  static String updateUser(int id) => "/users/$id";
+  static String addUser = "/users";
+  static String deleteUser(int id) => "/users/$id";
 }
 
 

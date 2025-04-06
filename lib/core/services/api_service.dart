@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:unjdigital_flutask/core/services/api_endpoints.dart';
 
 class ApiService {
   static final ApiService _instance = ApiService._internal();
@@ -11,7 +12,7 @@ class ApiService {
   ApiService._internal() {
     _dio = Dio(
       BaseOptions(
-        baseUrl: 'https://your-api-url.com/',
+        baseUrl: ApiEndpoints.baseUrl,
         connectTimeout: const Duration(seconds: 10),
         receiveTimeout: const Duration(seconds: 10),
         headers: {'Content-Type': 'application/json'},
